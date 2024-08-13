@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first::first-letter{
+            color: orangered;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .second::first-line{
+            background-color: brown;
+            color: white;
+        }
+        .sqi::before{
+            content: url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PxG_GVE_Blog_Header-bike_1.width-1600.format-webp.webp);
+        }
+        .sqi::after{
+            content:'college of ict' ;
+        }
+        ::marker{
+            color: brown;
+        }
+        ::placeholder{
+            color: red;
+        }
+        .showing{
+            width: 300px;
+            height:400px;
+            background-color: blue;
+            transition: all 1s ease 2s;
+        }
+        .showing:hover{
+            transform: translate(100px, 200px);
+        }
+        .rotate{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            transition: all 1s ease 2s;
+        }
+        .rotate:hover{ transform: rotate(360deg);
+
+        }
+        .showing2{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            box-shadow: 0 0 3px 15px azure;
+            transition: all 1s ease 2s;
+        }
+        .showing2:hover{
+            transform: scale(0.5);
+        }
+        .scale{ width: 100px;
+            height: 100px;
+            background-color: bisque;
+            box-shadow: 0 0 3px 15px azure;
+            transition: all 1s ease 2s;}
+            .scale:hover{
+                transform: skew(35deg, 55deg);
+            }
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <p>thr lord is my strenght</p>
+    </div>
+    <div class="second">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed a natus excepturi vel ipsa accusantium cum numquam! Nostrum, debitis! Pariatur dolorem omnis quae error eaque eos quod sunt vitae minima.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed a natus excepturi vel ipsa accusantium cum numquam! Nostrum, debitis! Pariatur dolorem omnis quae error eaque eos quod sunt vitae minima.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed a natus excepturi vel ipsa accusantium cum numquam! Nostrum, debitis! Pariatur dolorem omnis quae error eaque eos quod sunt vitae minima.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed a natus excepturi vel ipsa accusantium cum numquam! Nostrum, debitis! Pariatur dolorem omnis quae error eaque eos quod sunt vitae minima.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed a natus excepturi vel ipsa accusantium cum numquam! Nostrum, debitis! Pariatur dolorem omnis quae error eaque eos quod sunt vitae minima.</p>
+    </div>
+    <div class="sqi">SQi</div>
+    <ul>
+        <li>tunde</li>
+        <li>wale</li>
+        <li>tolu</li>
+        <li>marker</li>
+    </ul>
+    <input type="text" placeholder="fullname">
+    <div class="parent">
+
+    </div>
+
+    <div class="showing">
+    
+
+    </div>
+    <div class="rotate"></div>
+    <div class="showing2"></div>
+    <div class="scale"></div>
+</body>
+</html>

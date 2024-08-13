@@ -1,0 +1,81 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllGraphxPrintsHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AllGraphxPrintsHub</h1>
+        <p>Your one-stop solution for printing and branding needs</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Printing</h3>
+                <p>We offer high-quality printing services for various materials including business cards, flyers, brochures, and more.</p>
+            </div>
+            <div class="service">
+                <h3>Branding</h3>
+                <p>From outdoor billboards to vehicle wraps, we specialize in branding solutions that make your business stand out.</p>
+            </div>
+            <div class="service">
+                <h3>Sewing & Cloth Branding</h3>
+                <p>Customized sewing and branding services for uniforms, promotional apparel, and more.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

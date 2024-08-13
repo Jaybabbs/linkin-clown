@@ -1,0 +1,33 @@
+body {
+    background-color: #f3f2ef;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #0073b1;
+}
+
+.nav-link:hover {
+    color: #005582;
+}
+
+.btn-primary {
+    background-color: #0073b1;
+    border-color: #0073b1;
+}
+
+.btn-primary:hover {
+    background-color: #005582;
+    border-color: #005582;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}

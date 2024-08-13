@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assinment Javas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            margin-top: auto;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        .input-group input {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .input-group button {
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .input-group button:hover {
+            background-color: darkblue;
+        }
+        .output {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .sensor{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sensor">
+            <h2>WordSensor App</h2>
+        </div>
+        <div class="input-group">
+            <input type="text" id="textInput" placeholder="Type something...">
+            <button onclick="replaceWords()">Click Here</button>
+        </div>
+        <div class="output" id="output"></div>
+        <div class="input2">
+            <input type="text" id="input-month"  placeholder="enter the month" >
+            <button onclick="replaceWords1()" >check month</button>
+            <div class="output" id="output-month"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       
+    </script>
+</body>
+</html>

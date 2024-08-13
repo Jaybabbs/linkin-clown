@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflowd</title>
+</head>
+<style>
+    /* .smalldiv{width: 400px;
+    background-color: aqua;
+    display: flex;
+    overflow: auto;
+margin: auto;}
+
+    .span {background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px; 
+} */
+    .bigdiv {
+        width: 600px;
+        height: 500px;
+        background-color: blue;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+
+    .bigdiv::-webkit-scrollbar {
+        display:none;
+    }
+
+    .bigdiv::-webkit-scrollbar-thumb {
+        background-color: aqua;
+        border-radius: 15px;
+    }
+
+    .bigdiv:hover::-webkit-scrollbar {
+        display: inline;
+        visibility: visible;
+    }
+
+    .inside {
+        min-width: 190px;
+        height: 200px;
+        background-color: brown;
+        margin: 2px;
+    }
+</style>
+
+<body>
+    <div class="smalldiv">
+        <span class="span">tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span>
+        <span>tunde</span </div>
+
+        <div class="bigdiv">
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+            <div class="inside"></div>
+
+        </div>
+</body>
+
+</html>

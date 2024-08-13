@@ -1,0 +1,42 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table and Form Example</title>
+</head>
+<body>
+
+<h2>Table</h2>
+
+<table border ="1">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>john@example.com</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>jane@example.com</td>
+    <td>30</td>
+  </tr>
+</table>
+
+<h2>Form</h2>
+
+<form action="/submit" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
